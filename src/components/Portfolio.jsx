@@ -2,34 +2,42 @@ import React from 'react'
 import expenseTracker from '../assets/portfolio/expense-tracker-2.png'
 import jaaro from '../assets/portfolio/jaaro-1.png'
 import jobFinder from '../assets/portfolio/jobFinder-2.png'
-import memeGen from '../assets/portfolio/meme-generator-1.png'
+import dashboard from "../assets/portfolio/dashboard.png";
+import fivarr from "../assets/portfolio/fiverr.png";
 
 const Portfolio = () => {
-
-    const portfolios = [{
-        id: 1,
-        src: expenseTracker,
-        code: "https://github.com/nidal23/expensetracker.git" ,
-        demo:"https://expense-tracker-nm.netlify.app"
+  const portfolios = [
+    {
+      id: 1,
+      src: expenseTracker,
+      code: "https://github.com/nidal23/expensetracker.git",
+      demo: "https://expense-tracker-nm.netlify.app",
     },
     {
-        id: 2,
-        src: jaaro,
-        code: "https://github.com/nidal23/jaaro.git" ,
-        demo:"https://jaaro.netlify.app"
+      id: 2,
+      src: jaaro,
+      code: "https://github.com/nidal23/jaaro.git",
+      demo: "https://jaaro.netlify.app",
     },
     {
-        id: 3,
-        src: jobFinder,
-        code: "https://github.com/nidal23/jobfinder.git" ,
-        demo:"https://jobfinderbyniwizmo.netlify.app"
+      id: 3,
+      src: jobFinder,
+      code: "https://github.com/nidal23/jobfinder.git",
+      demo: "https://jobfinderbyniwizmo.netlify.app",
     },
     {
-        id: 4,
-        src: memeGen,
-        code: "https://github.com/nidal23/Meme-Generator-.git" ,
-        demo:"https://meme-generator-nmm.netlify.app"
-    }]
+      id: 4,
+      src: dashboard,
+      code: "https://github.com/nidal23/dashboard.git",
+      demo: "https://uidashboardnoai.netlify.app/",
+    },
+    {
+      id: 5,
+      src: fivarr,
+      code: "https://github.com/nidal23/fivarr.git",
+      demo: "fivarrr-clone.netlify.app",
+    },
+  ];
   return (
     <div
       name="portfolio"
@@ -41,8 +49,7 @@ const Portfolio = () => {
             Portfolio
           </p>
           <p className="py-6">
-            Take a look at a selection of projects that I have developed
-            individually.
+            Take a look at a some of projects that I have worked on recently.
           </p>
         </div>
 
