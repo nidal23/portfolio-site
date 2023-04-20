@@ -7,6 +7,7 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import mongo from "../assets/mongodb.png";
 import node from "../assets/nodejs.png";
+import firebase from "../assets/firebaseLogo.png";
 
 const Experience = () => {
   const techs = [
@@ -47,13 +48,19 @@ const Experience = () => {
       style: "shadow-green-400",
     },
     {
-      id: 6,
+      id: 7,
       src: mongo,
       title: "MongoDB",
       style: "shadow-green-300",
     },
     {
       id: 8,
+      src: firebase,
+      title: "Firebase",
+      style: "shadow-yellow-300",
+    },
+    {
+      id: 9,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",

@@ -4,20 +4,21 @@ import jaaro from '../assets/portfolio/jaaro-1.png'
 import jobFinder from '../assets/portfolio/jobFinder-2.png'
 import dashboard from "../assets/portfolio/dashboard.png";
 import fivarr from "../assets/portfolio/fiverr.png";
-
+import pizza from "../assets/portfolio/pizzaPlace.png";
+import quiz from "../assets/portfolio/quizApp.png";
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: expenseTracker,
-      code: "https://github.com/nidal23/expensetracker.git",
-      demo: "https://expense-tracker-nm.netlify.app",
+      src: dashboard,
+      code: "https://github.com/nidal23/dashboard.git",
+      demo: "https://uidashboardnoai.netlify.app/",
     },
     {
       id: 2,
-      src: jaaro,
-      code: "https://github.com/nidal23/jaaro.git",
-      demo: "https://jaaro.netlify.app",
+      src: fivarr,
+      code: "https://github.com/nidal23/fivarr.git",
+      demo: "https://fivarrr-clone.netlify.app",
     },
     {
       id: 3,
@@ -27,15 +28,21 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: dashboard,
-      code: "https://github.com/nidal23/dashboard.git",
-      demo: "https://uidashboardnoai.netlify.app/",
+      src: expenseTracker,
+      code: "https://github.com/nidal23/expensetracker.git",
+      demo: "https://expense-tracker-nm.netlify.app",
     },
     {
       id: 5,
-      src: fivarr,
-      code: "https://github.com/nidal23/fivarr.git",
-      demo: "fivarrr-clone.netlify.app",
+      src: quiz,
+      code: "https://github.com/nidal23/quiz-app.git",
+      demo: "https://quiz-app707.netlify.app/",
+    },
+    {
+      id: 6,
+      src: pizza,
+      code: "https://github.com/nidal23/pizzaListing.git",
+      demo: "https://pizzaplace707.netlify.app/",
     },
   ];
   return (
